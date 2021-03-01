@@ -10,11 +10,11 @@ repository = "https://github.com/georust/gpx"
 edition = "2018"
 
 [dependencies]
-assert_approx_eq = "1"
-chrono = "0.4"
-error-chain = "0.12"
-geo-types = "0.6"
-xml-rs = "0.8"
+assert_approx_eq = "1.1.0"
+chrono = "0.4.19"
+error-chain = "0.12.4"
+geo-types = "0.7.1"
+xml-rs = "0.8.3"
 
 [dev-dependencies]
-geo = "0.14"
+geo = "0.17.1"
